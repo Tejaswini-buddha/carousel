@@ -1,0 +1,34 @@
+* {
+    margin: 2;
+    padding: 2;
+}
+
+.heading{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    position: relative;
+}
+.image {
+    width: 100vw;
+    height: 100vh;
+}
+.left,
+.right{
+    height: 10vh;
+    width: auto;
+    position: absolute;
+    top: 45vh;
+}
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
